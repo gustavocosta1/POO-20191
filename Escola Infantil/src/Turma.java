@@ -5,8 +5,16 @@ public class Turma {
     private int cod,sala;
     private String nome_turma;
     private char tipo;
-    //private horario;
+    private professor prof;
     private List<aluno> lista_alunos = new ArrayList();
+
+    public String getProf() {
+        return prof.getNome();
+    }
+
+    public void setProf(professor prof) {
+        this.prof = prof;
+    }
 
     public int getCod() {
         return cod;

@@ -6,9 +6,13 @@ public class teste {
         professor p = new professor("Doutorado",10000,"Celso",98012);
         t.setLista_alunos(a);
         t.getLista_alunos();
+        t.setProf(p);
+        System.out.println(t.getProf());
+        System.out.println(t.getCod());
+        System.out.println(t.getSala());
+        System.out.println(t.getTipo());
         e.setProfessores(p);
         e.setTurma(t);
-        e.getProfessores();
         e.getTurma();
     }
 }
